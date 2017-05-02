@@ -17,5 +17,11 @@ from django.conf.urls import url
 from . import views
 
 urlpatterns = [
-    url(r'^$', views.home, name="home")
+    url(r'^$', views.home, name="home"),
+    url(r'^exhibits/$', views.exhibits, name='exhibits'),
+    url(r'^learn/$', views.learn, name='learn'),
+    url(r'^visit/$', views.visit, name='visit'),
+    url(r'^about/$', views.about, name='about'),
+    url(r'^faq/$', views.faq, name='faq'),
+    url(r'^resources/$', views.resources, name='resources'),
 ]

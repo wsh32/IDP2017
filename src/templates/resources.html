@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block title %}Resources{% endblock %}
+
+{% block css %}
+
+{% endblock %}
+
+{% block main %}
+		<main>
+            <div class="main-wrapper">
+                <div class="section" id="index-banner">
+                    <div class="container">
+                        <h2 class="header center primary-text-color">Resources</h2>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col l6 s12">
+                            <div class="card-panel">
+                                <h5><b>License:</b></h5>
+                                <span>&copy; 2017 Insert Title Here.</span><br>
+                                <span>All source code released under <a href="#license">MIT</a> license on <a href="https://github.com/wsh32/idp2017" target="_blank">Github</a></span>
+                            </div>
+                        </div>
+                        <div class="col l6 s12">
+                            <div class="card-panel">
+                                <h5><b>Citations:</b></h5>
+                                <span>Download <a href="{% staic 'resources/citations.pdf' %}" target="_blank">citations.pdf</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+{% endblock %}
+
+{% block js %}
+
+{% endblock %}

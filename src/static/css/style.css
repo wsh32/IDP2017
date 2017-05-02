@@ -62,6 +62,10 @@ ul.side-nav.full li, ul.side-nav.fixed li {
 	line-height: 64px;
 }
 
+.sidebar	{
+	color: #D1C4E9;
+}
+
 ul.side-nav li.logo:hover {
 	background-color: transparent;
 }
@@ -75,4 +79,12 @@ ul.side-nav li.logo:hover {
 	display: inline-block;
 	height: 100%;
 	pointer-events: none;
+}
+
+a, b   {
+    color: #FF5252;
+}
+
+p   {
+    color: #DDDDDD;
 }
