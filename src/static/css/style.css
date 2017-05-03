@@ -88,3 +88,7 @@ a, b   {
 p   {
     color: #DDDDDD;
 }
+
+.card-panel, .side-nav, .collapsible-header, .modal {
+    background-color: #F2F9FF;
+}

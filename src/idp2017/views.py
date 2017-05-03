@@ -6,11 +6,11 @@ def home(request):
 
 
 def exhibits(request):
-    return render(request, 'home.html')
+    return render(request, 'exhibits.html')
 
 
 def learn(request):
-    return render(request, 'home.html')
+    return render(request, 'learn.html')
 
 
 def visit(request):
@@ -18,7 +18,7 @@ def visit(request):
 
 
 def about(request):
-    return render(request, 'home.html')
+    return render(request, 'about.html')
 
 
 def faq(request):
