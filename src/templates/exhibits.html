@@ -9,8 +9,29 @@
 
 {% block main %}
 		<main>
+            <div class="main-wrapper">
+                <div class="section" id="index-banner">
+                    <div class="container">
+                        <h2 class="header center primary-text-color">Exhibits</h2>
+                    </div>
+                </div>
 
-		</main>
+                <div class="container">
+                    <ul class="collapsible" data-collapsible="accordion">
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">colorize</i>Exhibit Title</div>
+                            <div class="collapsible-body">
+                                <p>
+                                    Exhibit Description
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <br>
+            </div>
+        </main>
 {% endblock %}
 
 {% block js %}
