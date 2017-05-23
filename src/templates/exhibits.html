@@ -4,7 +4,7 @@
 {% block title %}Exhibits{% endblock %}
 
 {% block css %}
-
+		<link type="text/css" rel="stylesheet" href="{% static 'css/exhibits.css' %}" />
 {% endblock %}
 
 {% block main %}
@@ -19,11 +19,116 @@
                 <div class="container">
                     <ul class="collapsible" data-collapsible="accordion">
                         <li>
-                            <div class="collapsible-header"><i class="material-icons">colorize</i>Exhibit Title</div>
+                            <div class="collapsible-header"><i class="material-icons">colorize</i>Infectious Diseases Exhibit</div>
                             <div class="collapsible-body">
-                                <p>
-                                    Exhibit Description
-                                </p>
+                                <ul id="desc">
+                                    <li>Describe the chemical composition of diseases.</li>
+                                    <li>Have a poster that says how a disease can mutate and its implications/negative impacts on the local population.</li>
+                                    <li>How does that particular disease communicate from one person to another.</li>
+                                    <li>Protocol for containment-steps taken to assess the exposure of the disease over the course of a few days.</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">android</i>Zoonotic Diseases Exhibits</div>
+                            <div class="collapsible-body">
+                                <ul id="desc">
+                                    <li>To give an overview of animal diseases, how they’re transmitted, where it has impacted the most.</li>
+                                    <li>Supply the audience of how infectious diseases affects other species other than the human race.</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">public</i>Zika Virus: Global Connection Exhibit</div>
+                            <div class="collapsible-body">
+                                <ul id="desc">
+                                    <li>To give an overview of how given infectious diseases have worldwide connections.</li>
+                                    <li>Observe how diseases travelled great distances.</li>
+                                    <li>Understand how diseases adapted to their given environments.</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">colorize</i>Zika Virus Exhibit: (Needs name)</div>
+                            <div class="collapsible-body">
+                                <ul id="desc">
+                                    <li>Provide information about Zika virus and its transmission.</li>
+                                    <li>Understand how to lower the possibility of contracting Zika.</li>
+                                    <li>Zika statistics.</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">face</i>Zika Virus: Interactive Activity Exhibit (Baby Head)</div>
+                            <div class="collapsible-body">
+                                <ul id="desc">
+                                    <li>Teach the audience about the different parts of the children that are affected by the zika virus, especially the brain. </li>
+                                    <li><b>Interactive Activity: </b>Head of the baby is constructed with paper mache with the different parts of the head/brain represented by scrunched up paper. The pieces of paper will come together like a 3-D puzzle. The scrunched up paper will have different painted portions which will show the parts that are affected by the zika virus and how it is affected. There will also be a chart that explains how it is affected. </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">cloud</i>Airborne Diseases Exhibit</div>
+                            <div class="collapsible-body">
+                                <ul id="desc">
+                                    <li>To provide a general background on airborne diseases, such as symptoms, global impacts, common diseases, and methods of transmission.</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">trending_up</i>Measles Exhibit</div>
+                            <div class="collapsible-body">
+                                <ul id="desc">
+                                    <li>Bridge information from general airborne disease to a specific example - Measles. Includes method of transmission, common symptoms, how it affects the body on a molecular/biological level, implications, and a brief summary of current solutions/preventions specific to measles (leave a good portion of general prevention to the prevention section, just prevention specific to measles that would not be in the prevention section.)</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">colorize</i>Sexually Transmitted Diseases Exhibit</div>
+                            <div class="collapsible-body">
+                                <ul id="desc">
+                                    <li>Spread STD awareness. Educate the audience on STDs and why they are so dangerous (to our health). We will provide different examples of STDs and then transition into the upcoming exhibit which will delve more into syphilis.</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">colorize</i>Syphilis Exhibit: (needs name)</div>
+                            <div class="collapsible-body">
+                                <ul id="desc">
+                                    <li>Goes over specific methods that Syphilis is transmitted; has specifics on chemical reactions that happen in body; gives statistics on local, state, national, and world(?); talks about social stigmas attached to STDs, perhaps has an interview; cultural impact</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">wallpaper</i>Sexually Transmitted Diseases: Art Wall Exhibit</div>
+                            <div class="collapsible-body">
+                                <ul id="desc">
+                                    <li>To incorporate the English requirements to include American Art</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">supervisor_account</i>Syphilis: Spread of Diseases Lab Exhibit</div>
+                            <div class="collapsible-body">
+                                <ul id="desc">
+                                    <li>To convey to the audience the method of transmission and the prevalence of the disease today. </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">lightbulb_outline</i>Syphilis: UV Light Exhibit</div>
+                            <div class="collapsible-body">
+                                <ul id="desc">
+                                    <li>To provide an educational activity in which guests can see the various ways in which syphilis/STDs are spread. This will show people distinct methods of transmission and make them aware of its presence in multiple bodily fluids.</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">announcement</i>Preventions Exhibit: (needs name)</div>
+                            <div class="collapsible-body">
+                                <ul id="desc">
+                                    <li>To spread knowledge about disease prevention, importance of vaccines, among other things. Will include the interactive exhibit “Wrap It Before You Tap It.” </li>
+                                </ul>
                             </div>
                         </li>
                     </ul>

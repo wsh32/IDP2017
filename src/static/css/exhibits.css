@@ -1,0 +1,9 @@
+#desc li:before {
+	content: "> ";
+    color: #FF5252;
+	font-weight: bold;
+}
+
+#desc li {
+	color: #DDDDDD;
+}
