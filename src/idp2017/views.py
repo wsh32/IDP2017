@@ -27,3 +27,7 @@ def faq(request):
 
 def resources(request):
     return render(request, 'resources.html')
+
+
+def graphs(request):
+    return render(request, 'graphs.html')

@@ -24,4 +24,5 @@ urlpatterns = [
     url(r'^about/$', views.about, name='about'),
     url(r'^faq/$', views.faq, name='faq'),
     url(r'^resources/$', views.resources, name='resources'),
+    url(r'^graphs/$', views.graphs, name='graphs'),
 ]

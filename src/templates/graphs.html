@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	{% load staticfiles %}
+	<head>
+		<title>Graphs | Morbus</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+
+		<link rel="icon" type="image/png" href="{% static 'img/favicon.png' %}">
+
+		<!-- Meta -->
+        <meta name="author" content="Wesley Soo-Hoo" />
+
+		<!-- CSS  -->
+		<link type="text/css" rel="stylesheet" href="{% static 'css/materialize.css' %}" />
+		<link type="text/css" rel="stylesheet" href="{% static 'css/animate.css' %}" />
+		<link type="text/css" rel="stylesheet" href="{% static 'css/style.css' %}" />
+		<link type="text/css" rel="stylesheet" href="{% static 'css/palette.css' %}" />
+		<link type="text/css" rel="stylesheet" href="{% static 'css/mdi.css' %}" />
+
+		{% block css %}{% endblock %}
+	</head>
+
+	<body>
+
+        <br>
+
+		<div class="container">
+
+        <div class="col s12 center">
+            <br><br>
+            <div id="graph" style="min-width: 350px; height: 600px; margin: 0 auto"></div>
+            <br><br>
+        </div>
+
+        <a id="data" class="btn center">Show me!</a>
+        <a class="btn center show" href="/graphs/">Restart!</a>
+
+		</div>
+
+		<script src="{% static 'js/jquery-3.2.0.min.js' %}"></script>
+		<script src="{% static 'js/materialize.min.js' %}"></script>
+		<script src="{% static 'js/init.js' %}"></script>
+		<script src="{% static 'js/highcharts.src.js' %}"></script>
+		<script src="{% static 'js/graphs.js' %}"></script>
+		<script src="{% static 'js/dark-unica.js' %}"></script>
+	</body>
+
+</html>
