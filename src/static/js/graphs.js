@@ -4,7 +4,7 @@ var chart = null;
 function add_data()	{
 	var data = [];
 	for (var i = 1950; i <= 2010; i += 5) {
-		point = 3.9E136*Math.pow(2.71828,-0.154*i);
+		point = 3.9E136*Math.pow(2.71828,-0.154*i)/3;
 		console.log(point);
 		data.push([i, point]);
 	}
@@ -41,8 +41,6 @@ $(document).ready(function() {
 				text: 'Number of cases',
 			},
 			floor: 0,
-			min: 0,
-			max: 1500000,
 		},
 		credits: {
 			enabled: false,
